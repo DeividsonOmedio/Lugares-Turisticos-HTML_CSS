@@ -75,7 +75,9 @@ figure {
     transition: 1s;
     z-index: 0;
 }
-
+.coracao:clicked{
+filter: blur(1px);
+}
 .chat {
     filter: invert(1);
 
