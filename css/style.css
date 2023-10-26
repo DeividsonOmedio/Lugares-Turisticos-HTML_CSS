@@ -68,14 +68,16 @@ figure {
     zoom: 1.5;
     color: white;
 }
-
-.curtidas:hover ~ .coracao{
+.curtidas:hover{
+cursor: pointer;
+}
+.curtidas:hover  .coracao{
     filter: hue-rotate(90deg);
     scale: 1.5;
     transition: 1s;
     z-index: 0;
 }
-.curtidas:clicked  ~ .coracao{
+.curtidas:clicked   .coracao{
 filter: blur(1px);
 }
 .chat {
