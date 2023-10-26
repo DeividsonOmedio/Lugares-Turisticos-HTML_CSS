@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+body {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(196, 134, 134, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+h1 {
+    margin-left: -64%;
+}
+
+main {
+    margin-top: 3%;
+}
+
+p {
+    margin: auto 5%;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
+    width: 500px;
+    max-width: 500px;
+    height: 470px;
+    max-height: 470px;
+    margin: auto;
+    display: flex;
+    align-items: end;
+    justify-content: left;
+}
+
+#figure1 {
+    background-image: url(https://magazine.zarpo.com.br/wp-content/uploads/2018/09/lago-de-furnas_minas-gerais_zarpo.jpg);
+}
+
+#figure2 {
+    background-image: url(https://magazine.zarpo.com.br/wp-content/uploads/2018/09/baia-do-sancho_pernambuco_zarpo.jpg);
+}
+
+#figure3 {
+    background-image: url(https://magazine.zarpo.com.br/wp-content/uploads/2018/09/cascata-do-caracol_rio-grande-do-sul_zarpo.jpg);
+}
+
+.span {
+    flex-direction: row-reverse;
+    margin-left: 5%;
+    justify-content: space-evenly;
+    width: 50px;
+    zoom: 1.5;
+    color: white;
+}
+
+.coracao:hover {
+    filter: hue-rotate(90deg);
+    scale: 1.5;
+    transition: 1s;
+    z-index: 0;
+}
+
+.chat {
+    filter: invert(1);
+
+}
+
+.curtidas {
+    margin-top: 3px;
+    width: 75px;
+    margin-left: -6%;
+    position: absolute;
+    z-index: 10;
+}
+
+.custom-shape-divider-top-1698299862 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -10;
+}
+
+.custom-shape-divider-top-1698299862 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 130px;
+}
+
+.custom-shape-divider-top-1698299862 .shape-fill {
+    fill: #C48686;
+}
