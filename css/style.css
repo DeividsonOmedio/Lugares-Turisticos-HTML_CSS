@@ -69,13 +69,13 @@ figure {
     color: white;
 }
 
-.coracao:hover {
+.curtidas:hover ~ .coracao{
     filter: hue-rotate(90deg);
     scale: 1.5;
     transition: 1s;
     z-index: 0;
 }
-.coracao:clicked{
+.curtidas:clicked  ~ .coracao{
 filter: blur(1px);
 }
 .chat {
